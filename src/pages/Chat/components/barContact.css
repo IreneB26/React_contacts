@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.topbar_chat{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    gap: 20px;
+    padding-left: 10px;
+    background: var(--contact-background, var(--accent-color));
+}
+
+.status_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.svg{
+    width: 25px;
+    height: 30px;
+}
+
+

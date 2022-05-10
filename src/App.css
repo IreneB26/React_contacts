@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #847e89;
+  --secondary-color: #AFBFC0;
+  --terciary-color: #e1e1e1;
+  --accent-color: #c2d3cd;
+  --spacing: 8px;
+
+  --title-text-secondary: var(--terciary-color);
+  --separator-color: var(--secondary-color);
+}
+
+html {
+  background: var(--terciary-color);
+}
+
+.header {
+  background: var(--primary-color);
+  padding: calc(var(--spacing) * 2);
+  color: var(--title-text-secondary);
+}
+
+.list-contact {
+  margin: var(--spacing);
+}

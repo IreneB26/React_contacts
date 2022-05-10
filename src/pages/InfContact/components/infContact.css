@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avatar_contact{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.info_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.description_user{
+    width: 90%;
+    padding: 10%;
+    margin-top: 50px;
+    background: var(--contact-background, var(--accent-color));
+    border-radius: 20px;
+
+}

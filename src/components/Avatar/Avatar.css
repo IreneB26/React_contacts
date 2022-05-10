@@ -1,0 +1,6 @@
+.avatar {
+    border-radius: 100%;
+    width: calc(var(--spacing) * 6);
+    height: calc(var(--spacing) * 6);
+    object-fit: cover;
+}

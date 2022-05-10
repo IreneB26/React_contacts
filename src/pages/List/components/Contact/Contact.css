@@ -1,0 +1,25 @@
+.contact {
+    display: flex;
+    gap: var(--spacing);
+    padding: var(--spacing);
+    border-bottom: 1px solid var(--contact-border-color,var(--separator-color, gray));
+}
+
+.contact:hover {
+    background: var(--contact-background, var(--accent-color));
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    justify-content: center;
+}
+.name {
+    margin: 0;
+}
+ 
+.tel {
+    margin: 0;
+}
